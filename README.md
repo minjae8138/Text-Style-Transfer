@@ -47,7 +47,7 @@ pip install git+https://github.com/PrithivirajDamodaran/Styleformer.git
 ```
 ## Quick Start
 
-### Casual to Formal (Available now !)
+#### Casual to Formal (Available now !)
 ```python
 from styleformer import Styleformer
 import torch
@@ -145,7 +145,7 @@ for source_sentence in source_sentences:
 ----------------------------------------------------------------------------------------------------
 ```
 
-### Formal to Casual (Available now !)
+#### Formal to Casual (Available now !)
 ```python
 from styleformer import Styleformer
 import warnings
