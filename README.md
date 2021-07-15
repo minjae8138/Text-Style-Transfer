@@ -1,5 +1,4 @@
 [![PyPI - License](https://img.shields.io/hexpm/l/plug)](https://github.com/PrithivirajDamodaran/Styleformer/blob/main/LICENSE)
-[![Visits Badge](https://badges.pufler.dev/visits/PrithivirajDamodaran/Styleformer)](https://badges.pufler.dev)
 
 
 <p align="center">
@@ -35,7 +34,7 @@ A Neural Language Style Transfer framework to transfer natural language text smo
     - Refine a Translated text to more casual tone to reach younger audience.
 
 **Area 3: Controlled paraphrasing**
-- Formal <=> Casual and Active <=> style transfers adds a notion of control over how we paraphrase when compared to free-form paraphrase where there is control or guarantee over the paraphrases.
+- Formal <=> Casual transfers adds a notion of control over how we paraphrase when compared to free-form paraphrase where there is control or guarantee over the paraphrases.
 
 **Area 4: Assisted writing**
 - Integrate this to any human writing interfaces like email clients, messaging tools or social media post authoring tools. Your creativity is your limit to te uses. 
@@ -209,17 +208,6 @@ for source_sentence in source_sentences:
 [Formal]  We went to Barcelona for the weekend. We have a lot of things to tell you.
 [Casual]  hehe..we went to barcelona for the weekend..we got a lot of things to tell ya..
 ----------------------------------------------------------------------------------------------------
-```
-
-### Active to Passive (Available now !)
-```python
-# style = [0=Casual to Formal, 1=Formal to Casual, 2=Active to Passive, 3=Passive to Active etc..]
-sf = Styleformer(style = 2) 
-```
-### Passive to Active (Available now !)
-```python
-# style = [0=Casual to Formal, 1=Formal to Casual, 2=Active to Passive, 3=Passive to Active etc..]
-sf = Styleformer(style = 3) 
 ```
 
 ## Knobs
