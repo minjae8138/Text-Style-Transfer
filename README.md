@@ -243,7 +243,10 @@ pip install streamlit
 streamlit run streamlit_app.py
 ```
 
+
+
 ## References
+
 - [Formality Style Transfer for Noisy Text: Leveraging Out-of-Domain
 Parallel Data for In-Domain Training via POS Masking](https://www.aclweb.org/anthology/D19-5502.pdf)
 - [Generative Text Style Transfer for Improved Language Sophistication](http://cs230.stanford.edu/projects_winter_2020/reports/32069807.pdf)
